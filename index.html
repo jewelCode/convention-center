@@ -144,6 +144,7 @@
                     </div>
                   </div>
                   <div class="col-lg-3 col-sm-12">
+                    <div class="text-center"><span class="border p-2 text-white" style="background-color: red; border-radius: 15px;">Hot</span></div>
                     <div class="card border-0 text-white bg-primary pb-5 shadow card-background">
                       <div class="card-body">
                         <h2 class="card-title ms-4">$700</h2>
@@ -240,17 +241,25 @@
                     <img class="img-fluid" src="./resources/images/map.jpg" alt="">
                 </div>
                 <div class="col-lg-6 p-5">
+                    <h3 class="text-center mb-5 border p-4">Contact Form</h3>
                     <form action="/action_page.php">
                         <label for="fname">First Name:</label>
                         <br>
                         <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
                         <br>
-                        <label for="lname">Last Name</label>
+                        <label for="lname">Last Name:</label>
                         <br>
                         <input class="form-control" type="text" id="lname" name="lastname" placeholder="Your last name..">
                         <br>
-                        <label for="mnumber">Mobile Number</label>
+                        <label for="mnumber">Mobile Number:</label>
                         <input class="form-control" type="text/number" id="lname" name="lastname" placeholder="Your Mobile Number">
+                        <br>
+                        <label for="message">Messege:</label>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Enter Your Messege</label>
+                          </div>
+
                         <br>
                         <button type="button" class="btn btn-primary">Book Now</button>
                       </form>
